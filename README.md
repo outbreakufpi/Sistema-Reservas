@@ -10,7 +10,7 @@ O sistema é dividido em dois repositórios:
 
 ## 🚀 Tecnologias Utilizadas  
 - **Backend**: Node.js, Express, MongoDB, Mongoose  
-- **Frontend**: (Definir conforme desenvolvimento)  
+- **Frontend**: (Definir conforme desenvolvimento, provavelmente EJS ou react)  
 
 ## 📌 Funcionalidades (em desenvolvimento)  
 - Cadastro e autenticação de usuários (com matrícula)  
