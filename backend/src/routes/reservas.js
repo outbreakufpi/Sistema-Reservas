@@ -1,9 +1,11 @@
 import express from 'express';
-import { criarReserva, listarReservas } from '../controllers/reservaController.js';
+import { verificarToken } from '../middlewares/authMiddleware.js';
+import { reservarSala, listarReservas } from '../controllers/reservaController.js'; // Importação dos controladores
 
 const router = express.Router();
 
-router.post('/reservas', criarReserva);
-router.get('/reservas', listarReservas);
+// Rota protegida que exige um token válido
+router.post('/reservar', verificarToken, reservarSala);
+router.get('/reservas', verificarToken, listarReservas);
 
 export { router };

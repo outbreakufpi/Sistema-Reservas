@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const ReservaSchema = new mongoose.Schema({
   matricula: { type: String, required: true }, // Identificação do estudante
