@@ -6,7 +6,7 @@ Este projeto é um sistema web para gerenciamento de reservas de salas de estudo
 O sistema é dividido em dois repositórios:  
 
 - **Backend**: Desenvolvido com Node.js, Express e MongoDB.  
-- **Frontend**: Interface web desenvolvida separadamente pelos colegas de equipe.  
+- **Frontend**: Interface web desenvolvida separadamente pelos colegas de equipe Utilizando EJS.  
 
 ## 🚀 Tecnologias Utilizadas  
 - **Backend**: Node.js, Express, MongoDB, Mongoose  
